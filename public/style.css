@@ -1,0 +1,39 @@
+.caesar{
+	display:block;
+	height: 50%;
+	margin: auto;
+	margin-bottom:30px;
+}
+
+p{
+	color:white;
+	text-align: center;
+
+}
+
+.heading{
+	display:block;
+	margin: auto;
+}
+
+input{
+	margin: auto;
+}
+
+form {
+	text-align:center;
+}
+
+body{
+	background-image:url("caesar_murder.jpg");
+	background-size:cover;
+	color:white;
+	font-weight: bold;
+	font-size:34px;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:#000;
+}
+
+.main{
+	margin-top:5%;
+}

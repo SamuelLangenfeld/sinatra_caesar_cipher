@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <img class="heading" src="title.png">
+
+    <div class="main">
+    <p class="instructions">A Caesar Cipher encodes a message by shifting each letter of the message across the alphabet by a certain number.</p>
+    <p class="instructions">Enter a message and a key number to encode it</p>
+      
+      <form action= '/' method="post">
+        <label>Message:</label><input type='text' name='string' />
+        <label>Shift Number:</label></label><input type='number' name='shift' />
+        <input type='submit' value='Encode' />
+      </form>
+      <p><%= if shifted_message then "The coded message is #{shifted_message}" end %></p>
+      </div>
+      
+  </body>
+</html>
+
+
+
+<!--  
+    <div class="eagle_box">
+      <img class="eagle_image" src="roman_eagle.png">
+    </div>
+    <div class="game_box">
+      <img class="heading" src="title.png">
+      <p class="instructions">A caesar cipher is a simple encryption tool that works by shifting each letter of a text a number of positions across the alphabet. It is named after Julius Caesar who used it to code his personal correspondance. <br> <br>Write your message in the message box and a number to shift for each letter. Then click encode to see your encrypted message!</p>
+
+      <img class="caesar" src="caesar_image.jpg">
+      
+      <form action= '/' method="post">
+        <span class="horizontal_forms"><label class="vertical_label">Message:</label><input type='text' name='string' /></span>
+        <span class="horizontal_forms"><label class="vertical_label">Shift Number:</label><input type='number' name='shift' />
+        <input type='submit' value='Encode' /></span>
+      </form>
+      <p>
+      <%= if shifted_message then "The coded message is #{shifted_message}" end %></p>
+    </div>
+    <div class="eagle_box">
+      <img class="eagle_image" src="roman_eagle.png">
+    </div>
+
+-->
+  </body>
+</html>
